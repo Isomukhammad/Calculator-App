@@ -1,0 +1,167 @@
+@import "colors.scss";
+@import "default.scss";
+@import "./Themes/Theme2/Theme2.scss";
+@import "./Themes/Theme3/Theme3.scss";
+@import "./Themes/Theme1/Theme1.scss";
+
+body {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  width: 350px;
+}
+
+.header {
+  padding: 1em 0;
+  display: flex;
+  justify-content: space-between;
+
+  .toggle-elements {
+    margin-top: 1.5em;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-size: 0.4em;
+    position: relative;
+
+    .theme-number {
+      position: absolute;
+      right: 0.35em;
+      top: -0.7em;
+      display: flex;
+      gap: 0.45em;
+
+      div {
+        font-size: 0.5em;
+      }
+    }
+
+    .toggle {
+      margin-left: 0.5em;
+      padding: 0.1em;
+      width: 80px;
+      height: 28px;
+      border-radius: 50px;
+      display: flex;
+      align-items: center;
+      position: relative;
+
+      #circle {
+        position: absolute;
+        left: 0.2em;
+        border-radius: 50%;
+        width: 20px;
+        height: 20px;
+        cursor: pointer;
+        transition: left ease-out 0.1s;
+      }
+
+      .theme {
+        width: 25px;
+        height: 20px;
+        cursor: pointer;
+      }
+    }
+  }
+}
+
+.display {
+  #eqField {
+    padding: 0 22.4px;
+    padding-top: 0.4em;
+    height: 1.5em;
+    border-radius: 0.5em 0.5em 0 0;
+    text-align: right;
+    font-size: 0.6em;
+    word-wrap: break-word;
+  }
+
+  #input {
+    padding: 0.2em 0.7em;
+    width: 100%;
+    border: 0;
+    border-radius: 0 0 0.3em 0.3em;
+    text-align: right;
+
+    &:focus {
+      outline: 0;
+    }
+  }
+}
+
+.buttons {
+  margin: 1em 0;
+  padding: 0.7em;
+  border-radius: 0.3em;
+
+  .numbers {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 0.4em;
+
+    button {
+      padding: 0.6em;
+      padding-bottom: 0.4em;
+      text-transform: uppercase;
+      border-radius: 0.3em;
+      cursor: pointer;
+      border: 0;
+
+      &:active {
+        font-size: 0.9em;
+      }
+    }
+
+    #multiplication {
+      text-transform: none;
+    }
+
+    #del {
+      font-size: 0.6em;
+    }
+  }
+
+  .action {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-top: 0.5em;
+    gap: 0.3em;
+
+    button {
+      text-transform: uppercase;
+      border-radius: 0.3em;
+      cursor: pointer;
+      padding: 1.2em;
+      padding-bottom: 1em;
+      border: 0;
+      font-size: 0.6em;
+    }
+  }
+}
+
+@media (min-width: 576px) {
+  .container {
+    width: 450px;
+  }
+
+  .logo {
+    font-size: 16px;
+  }
+
+  .buttons {
+    .numbers {
+      gap: 0.7em;
+
+      button {
+        padding: 0.3em;
+        padding-bottom: 0.1em;
+        font-size: 0.9em;
+      }
+    }
+  }
+}

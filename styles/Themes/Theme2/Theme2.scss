@@ -1,0 +1,85 @@
+@import "../../colors.scss";
+
+.t2 {
+  background-color: $Light-gray;
+
+  .header {
+    .logo {
+      color: $Very-dark-violet;
+    }
+
+    .toggle-elements {
+      color: $Very-dark-violet;
+
+      .toggle {
+        background-color: $Grayish-red;
+
+        #circle {
+          background-color: $Orange-key;
+        }
+      }
+    }
+  }
+
+  .display {
+    #eqField {
+      background-color: hsl(0, 0, 94%);
+      color: $Very-dark-grayish-blue;
+    }
+
+    #input {
+      background-color: hsl(0, 0, 94%);
+      color: $Very-dark-violet;
+    }
+  }
+
+  .buttons {
+    background-color: $Grayish-red;
+
+    .numbers {
+      button {
+        color: $Very-dark-grayish-blue;
+        background-color: $Light-grayish-yellow;
+        box-shadow: 0 3px $Dark-grayish-orange;
+
+        &:active {
+          background-color: $Grayish-red;
+        }
+      }
+
+      #del {
+        color: $White-text;
+        background-color: $Dark-moderate-cyan;
+        box-shadow: 0 3px $Very-dark-cyan;
+
+        &:active {
+          background-color: $Very-dark-cyan;
+        }
+      }
+    }
+
+    .action {
+      button {
+        color: $White-text;
+      }
+
+      #reset {
+        background-color: $Dark-moderate-cyan;
+        box-shadow: 0 3px $Very-dark-cyan;
+
+        &:active {
+          background-color: $Very-dark-cyan;
+        }
+      }
+
+      #result {
+        background-color: $Orange-key;
+        box-shadow: 0 3px $Dark-orange;
+
+        &:active {
+          background-color: $Dark-orange;
+        }
+      }
+    }
+  }
+}

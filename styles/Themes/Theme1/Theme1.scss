@@ -1,0 +1,85 @@
+@import "../../colors.scss";
+
+.t1 {
+  background-color: $Very-dark-desaturated-blue-main;
+
+  .header {
+    .logo {
+      color: $White-text;
+    }
+
+    .toggle-elements {
+      color: white;
+
+      .toggle {
+        background-color: hsl(223, 31%, 20%);
+
+        #circle {
+          background-color: $Dark-red;
+        }
+      }
+    }
+  }
+
+  .display {
+    #eqField {
+      background-color: $Very-dark-desaturated-blue-screen-background;
+      color: $Desaturated-dark-blue-key-background;
+    }
+
+    #input {
+      background-color: $Very-dark-desaturated-blue-screen-background;
+      color: $White-text;
+    }
+  }
+
+  .buttons {
+    background-color: hsl(223, 31%, 20%);
+
+    .numbers {
+      button {
+        color: $Very-dark-grayish-blue;
+        background-color: $Light-grayish-yellow;
+        box-shadow: 0 3px $Dark-grayish-orange;
+
+        &:active {
+          background-color: $Grayish-red;
+        }
+      }
+
+      #del {
+        color: $White-text;
+        background-color: $Desaturated-dark-blue-key-background;
+        box-shadow: 0 3px $Desaturated-dark-blue-key-shadow;
+
+        &:active {
+          background-color: $Desaturated-dark-blue-key-shadow;
+        }
+      }
+    }
+
+    .action {
+      button {
+        color: $White-text;
+      }
+
+      #reset {
+        background-color: $Desaturated-dark-blue-key-background;
+        box-shadow: 0 3px $Desaturated-dark-blue-key-shadow;
+
+        &:active {
+          background-color: $Desaturated-dark-blue-key-shadow;
+        }
+      }
+
+      #result {
+        background-color: $Red;
+        box-shadow: 0 3px $Dark-red;
+
+        &:active {
+          background-color: $Dark-red;
+        }
+      }
+    }
+  }
+}

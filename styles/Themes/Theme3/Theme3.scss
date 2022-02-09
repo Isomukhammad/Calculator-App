@@ -1,0 +1,86 @@
+@import "../../colors.scss";
+
+.t3 {
+  background-color: hsl(268, 75%, 9%);
+
+  .header {
+    .logo {
+      color: $Light-yellow;
+    }
+
+    .toggle-elements {
+      color: $Light-yellow;
+
+      .toggle {
+        background-color: hsl(268, 71%, 12%);
+
+        #circle {
+          background-color: $Pure-cyan;
+        }
+      }
+    }
+  }
+
+  .display {
+    #eqField {
+      background-color: hsl(268, 71%, 12%);
+      color: $White-text;
+    }
+
+    #input {
+      background-color: hsl(268, 71%, 12%);
+      color: $Light-yellow;
+    }
+  }
+
+  .buttons {
+    background-color: hsl(268, 71%, 12%);
+
+    .numbers {
+      button {
+        color: $Light-yellow;
+        background-color: $Very-dark-violet-2;
+        box-shadow: 0 3px $Vivid-magenta;
+
+        &:active {
+          background-color: $Vivid-magenta;
+        }
+      }
+
+      #del {
+        color: $White-text;
+        background-color: $Dark-violet;
+        box-shadow: 0 3px $Vivid-magenta;
+
+        &:active {
+          background-color: $Vivid-magenta;
+        }
+      }
+    }
+
+    .action {
+      button {
+        color: $White-text;
+      }
+
+      #reset {
+        background-color: $Dark-violet;
+        box-shadow: 0 3px $Vivid-magenta;
+
+        &:active {
+          background-color: $Vivid-magenta;
+        }
+      }
+
+      #result {
+        color: hsl(268, 75%, 9%);
+        background-color: $Pure-cyan;
+        box-shadow: 0 3px $Sof-cyan;
+
+        &:active {
+          background-color: $Sof-cyan;
+        }
+      }
+    }
+  }
+}

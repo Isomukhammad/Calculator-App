@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  <link rel="stylesheet" href="styles/style.css">
+  
+  <title>Frontend Mentor | Calculator app</title>
+</head>
+
+<body class = 't1 t2 t3'>
+  <div class="container">
+    <div class="header">
+      <div class="logo">
+        <h1>calc</h1>
+      </div>
+
+      <div class="toggle-elements">
+        THEME
+
+        <div class ='theme-number'>
+          <div>1</div>
+          <div>2</div>
+          <div>3</div>
+        </div>
+
+        <div class="toggle">
+          <div id = 'circle'></div>
+          <div id = 'first-theme' class = 'theme'></div>
+          <div id = 'second-theme' class = 'theme'></div>
+          <div id = 'third-theme' class = 'theme'></div> 
+        </div>
+      </div>
+    </div>
+
+    <div class="display">
+      <div id = 'eqField'></div>
+      <input type="text" id = 'input' name = 'eq'>
+    </div>
+
+    <div class="buttons">
+      <div class = 'numbers'>
+        <button class = 'number' value = '7'>7</button>
+        <button class = 'number' value = '8'>8</button>
+        <button class = 'number' value = '9'>9</button>
+        <button id = 'del'>del</button>
+        <button class = 'number' value = '4'>4</button>
+        <button class = 'number' value = '5'>5</button>
+        <button class = 'number' value = '6'>6</button>
+        <button id = 'plus' value = '+'>+</button>
+        <button class = 'number' value = '1'>1</button>
+        <button class = 'number' value = '2'>2</button>
+        <button class = 'number' value = '3'>3</button>
+        <button id = 'subtraction' value = '-'>-</button>
+        <button id = 'dot'>.</button>
+        <button class = 'number' value = '0'>0</button>
+        <button id = 'division' value = '/'>/</button>
+        <button id = 'multiplication' value = '*'>x</button>
+      </div>
+
+      <div class="action">
+        <button id = 'reset'>reset</button>
+        <button id = 'result'>=</button>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+  <script src="style.js"></script>
+</body>
+
+</html>

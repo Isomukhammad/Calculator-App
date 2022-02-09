@@ -1,0 +1,80 @@
+.t1 {
+  background-color: #3a4764;
+}
+
+.t1 .header .logo {
+  color: white;
+}
+
+.t1 .header .toggle-elements {
+  color: white;
+}
+
+.t1 .header .toggle-elements .toggle {
+  background-color: #232c43;
+}
+
+.t1 .header .toggle-elements .toggle #circle {
+  background-color: #93261a;
+}
+
+.t1 .display #eqField {
+  background-color: #182034;
+  color: #637097;
+}
+
+.t1 .display #input {
+  background-color: #182034;
+  color: white;
+}
+
+.t1 .buttons {
+  background-color: #232c43;
+}
+
+.t1 .buttons .numbers button {
+  color: #444b5a;
+  background-color: #e5e4e1;
+  -webkit-box-shadow: 0 3px #a69d91;
+          box-shadow: 0 3px #a69d91;
+}
+
+.t1 .buttons .numbers button:active {
+  background-color: #d1cccc;
+}
+
+.t1 .buttons .numbers #del {
+  color: white;
+  background-color: #637097;
+  -webkit-box-shadow: 0 3px #404e72;
+          box-shadow: 0 3px #404e72;
+}
+
+.t1 .buttons .numbers #del:active {
+  background-color: #404e72;
+}
+
+.t1 .buttons .action button {
+  color: white;
+}
+
+.t1 .buttons .action #reset {
+  background-color: #637097;
+  -webkit-box-shadow: 0 3px #404e72;
+          box-shadow: 0 3px #404e72;
+}
+
+.t1 .buttons .action #reset:active {
+  background-color: #404e72;
+}
+
+.t1 .buttons .action #result {
+  background-color: #d03f2f;
+  -webkit-box-shadow: 0 3px #93261a;
+          box-shadow: 0 3px #93261a;
+}
+
+.t1 .buttons .action #result:active {
+  background-color: #93261a;
+}
+/*# sourceMappingURL=Theme1.css.map */
